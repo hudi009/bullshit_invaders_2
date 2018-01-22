@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Bull$#!t Invaders</title>
+
+        <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+
+        <style type="text/css">
+          .ctn {
+			
+            width: 750px;
+            height: 400px;
+            position: relative;
+          }
+
+          #splash {
+            position: absolute;
+            width: 750px;
+            height: 400px;
+            top: 0;
+            left: 0;
+            background-image: url('watsonde.png');
+            opacity: 0;
+            display:none;
+            z-index: 2;
+            text-align: right;
+            float: right;
+          }
+
+          #splash a {
+            font-family: Verdana;
+            font-size: 12pt;
+            text-decoration: none;
+            color: '#000';
+            margin: 40px;
+            line-height: 4;
+          }
+
+          #game-canvas {
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 1px solid silver;
+            background-color:#000;
+          }
+			h1 {
+  			color: #00c1f6;
+			}
+        </style>
+    </head>
+    <body bgcolor="black">
+		<table width="750px" border="0" align="center">
+  <tbody align="center">
+    <tr align="center">
+      <td align="center"><div>&nbsp;</div>
+		<div>&nbsp;</div>
+        <h1 align="center">Bull$#!t Invaders</h1>
+		<div>&nbsp;</div>
+		<div>&nbsp;</div>
+        <div align="center" class="ctn">
+          <canvas id="game-canvas" width="750" height="400">
+            Bull$#!t Invaders - Not Found
+          </canvas>
+          <div id="splash">&nbsp;</div>
+        </div>
+        <span id="fps"></span></td>
+    </tr>
+  </tbody>
+</table>
+		
+    </body>
+</html>
